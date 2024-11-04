@@ -1,0 +1,40 @@
+{
+  "name": "@time-capsule/frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "sst shell vitest"
+  },
+  "exports": {
+    "./*": [
+      "./src/*/*.tsx",
+      "./src/*/*.ts",
+      "./src/*.ts",
+      "./src/*.tsx",
+      "./src/*.css"
+    ]
+  },
+  "dependencies": {
+    "sst": "*"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.3"
+  },
+  "description": "A React TypeScript and Tailwind CSS frontend",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranuthi9/time-capsule.git"
+  },
+  "keywords": [
+    "time",
+    "capsule",
+    "social",
+    "media"
+  ],
+  "author": "Pranuthi Mangu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranuthi9/time-capsule/issues"
+  },
+  "homepage": "https://github.com/pranuthi9/time-capsule#readme"
+}
